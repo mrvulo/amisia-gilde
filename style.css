@@ -1,0 +1,175 @@
+/* Allgemeines Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #e0c97a;
+}
+
+/* Header & Navigation */
+header {
+    background: #800000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 32px;
+    color: #FFD700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Inhalt */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #121212;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.2);
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+/* News */
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+article {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+article:hover {
+    background: #444;
+}
+
+/* Raid-Kalender */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #e0c97a;
+    text-align: center;
+}
+
+th {
+    background: #800000;
+    color: white;
+}
+
+/* Discord */
+.discord-btn {
+    display: inline-block;
+    background: #7289DA;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.discord-btn:hover {
+    background: #5865F2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #800000;
+    margin-top: 20px;
+}
+#live-raids {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#raid-log {
+    list-style: none;
+    padding: 0;
+}
+
+#raid-log li {
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}
+
+button {
+    background: #800000;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #b30000;
+}
+
+#forum {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#comment-input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+#comment-list li {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
