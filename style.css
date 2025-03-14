@@ -173,3 +173,34 @@ button:hover {
     border-radius: 5px;
     margin-top: 5px;
 }
+#dps {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#dps-rankings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#dps-rankings th, #dps-rankings td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+#dps-rankings th {
+    background: #800000;
+    color: white;
+}
+
+#dps-rankings tr:nth-child(odd) {
+    background: #333;
+}
+
+#dps-rankings tr:nth-child(even) {
+    background: #222;
+}
+
