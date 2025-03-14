@@ -203,4 +203,30 @@ button:hover {
 #dps-rankings tr:nth-child(even) {
     background: #222;
 }
+#warcraftlogs {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#logs ul {
+    list-style: none;
+    padding: 0;
+}
+
+#logs li {
+    padding: 10px;
+    background: #333;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#logs a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+#logs a:hover {
+    color: #FFA500;
+}
 
